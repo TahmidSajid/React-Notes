@@ -3,6 +3,7 @@ import Product from "./Product";
 
 const Products = ({ products }) => {
   let productList = Array.from(products);
+  console.log(products)
   return (
     <>
       <div className="products">
