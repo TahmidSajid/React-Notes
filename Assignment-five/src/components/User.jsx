@@ -12,12 +12,12 @@ const User = ({ id, name, email, phone, onHandleDeleteUser }) => {
       <a className="user__phone" href={'tel:+' + phone}>
         {phone}
       </a>
-      <button
+      {/* <button
         onClick={() => {
           handleDelete(id);
         }}>
         Delete
-      </button>
+      </button> */}
     </article>
   );
 };
